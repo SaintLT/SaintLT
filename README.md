@@ -18,7 +18,7 @@ Based in Nairobi, Kenya.
 
 </div>
 
-<img src="assets/divider.svg" width="100%" height="2" alt="">
+<img src="assets/divider.svg" width="100%" alt="">
 
 ## Technical Skills
 
@@ -60,7 +60,7 @@ Based in Nairobi, Kenya.
   </tr>
 </table>
 
-<img src="assets/divider.svg" width="100%" height="2" alt="">
+<img src="assets/divider.svg" width="100%" alt="">
 
 ## Featured Projects
 
@@ -99,7 +99,7 @@ Based in Nairobi, Kenya.
   </tr>
 </table>
 
-<img src="assets/divider.svg" width="100%" height="2" alt="">
+<img src="assets/divider.svg" width="100%" alt="">
 
 ## Currently Building
 
@@ -107,7 +107,7 @@ Based in Nairobi, Kenya.
 - **Spendwise:** interface polish and new spending insights.
 - **Netdiag:** UDP scanning, DNSSEC checks and a web interface are on the roadmap.
 
-<img src="assets/divider.svg" width="100%" height="2" alt="">
+<img src="assets/divider.svg" width="100%" alt="">
 
 ## Connect
 

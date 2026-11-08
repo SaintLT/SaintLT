@@ -1,0 +1,43 @@
+name: Update profile stats
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/scripts/generate_stats.py"
+      - ".github/workflows/profile-stats.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-stats
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate stat cards
+        env:
+          # PROFILE_TOKEN is optional: a personal access token with the read:user scope.
+          # Without it the cards count public activity only.
+          GH_TOKEN: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
+          GH_LOGIN: ${{ github.repository_owner }}
+        run: python3 .github/scripts/generate_stats.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/generated
+          if git diff --cached --quiet; then
+            echo "Cards are already up to date."
+          else
+            git commit -m "Update profile stat cards"
+            git push
+          fi

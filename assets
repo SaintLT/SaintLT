@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="t d" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif">
+  <title id="t">Leeroy Mwangi</title>
+  <desc id="d">Building Software. Solving Problems. Exploring Technology.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A0F18"/>
+      <stop offset="1" stop-color="#0D1626"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.45" r="0.55">
+      <stop offset="0" stop-color="#268BFF" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#268BFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#268BFF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#268BFF"/>
+      <stop offset="1" stop-color="#268BFF" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#1B2B44" stroke-opacity="0.55" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#grid)"/>
+  <rect width="1200" height="300" fill="url(#glow)"/>
+
+  <!-- network motif -->
+  <g transform="translate(400,24) scale(0.68)">
+  <g stroke="#268BFF" stroke-opacity="0.45" stroke-width="1.5" fill="none">
+    <path d="M780 70 L900 120 L1010 80 L1120 140"/>
+    <path d="M900 120 L860 210 L990 230 L1120 140"/>
+    <path d="M1010 80 L1090 40"/>
+    <path d="M860 210 L760 180 L780 70"/>
+    <path d="M990 230 L1100 250"/>
+  </g>
+  <g fill="#0A0F18" stroke="#268BFF" stroke-width="2">
+    <circle cx="780" cy="70" r="6"/>
+    <circle cx="900" cy="120" r="8"/>
+    <circle cx="1010" cy="80" r="6"/>
+    <circle cx="1120" cy="140" r="9"/>
+    <circle cx="860" cy="210" r="6"/>
+    <circle cx="990" cy="230" r="7"/>
+    <circle cx="760" cy="180" r="5"/>
+    <circle cx="1090" cy="40" r="4"/>
+    <circle cx="1100" cy="250" r="4"/>
+  </g>
+  <g fill="#268BFF">
+    <circle cx="900" cy="120" r="3"/>
+    <circle cx="1120" cy="140" r="3.5"/>
+    <circle cx="990" cy="230" r="2.5"/>
+  </g>
+  </g>
+
+  <!-- text -->
+  <rect x="72" y="76" width="56" height="4" rx="2" fill="#268BFF"/>
+  <text x="70" y="160" font-size="86" font-weight="700" letter-spacing="5" fill="#F2F6FB">LEEROY MWANGI</text>
+  <text x="72" y="210" font-size="30" font-weight="500" fill="#268BFF">Building Software. Solving Problems. Exploring Technology.</text>
+
+  <rect x="0" y="296" width="1200" height="4" fill="url(#rule)"/>
+</svg>

@@ -13,7 +13,13 @@ Building practical software, useful tools, and reliable systems.
 
 <br>
 
-[About](#about-me) · [Tech Stack](#technology-stack) · [Featured Builds](#featured-projects) · [GitHub Stats](#github-analytics) · [Connect](#connect-with-me)
+<p align="center">
+<a href="#about-me"><img src="https://img.shields.io/badge/ABOUT_ME-16365C?style=for-the-badge&logo=readme&logoColor=white" alt="About me"></a>
+<a href="#technology-stack"><img src="https://img.shields.io/badge/TECH_STACK-16365C?style=for-the-badge&logo=stackshare&logoColor=white" alt="Technology stack"></a>
+<a href="#featured-projects"><img src="https://img.shields.io/badge/PROJECTS-268BFF?style=for-the-badge&logo=github&logoColor=white" alt="Featured projects"></a>
+<a href="#github-analytics"><img src="https://img.shields.io/badge/ANALYTICS-16365C?style=for-the-badge&logo=github&logoColor=white" alt="GitHub analytics"></a>
+<a href="#connect-with-me"><img src="https://img.shields.io/badge/CONNECT-16365C?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect"></a>
+</p>
 
 </div>
 

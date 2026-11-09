@@ -437,6 +437,12 @@ def main():
     }
     files.update(streak_cards(data, s))
     out_dir = os.path.abspath(OUT_DIR if "--sample" not in sys.argv else "/tmp/sample-cards")
+    # Recover cleanly if a previous commit accidentally created this path as a file.
+    if os.path.lexists(out_dir) and not os.path.isdir(out_dir):
+        if os.path.islink(out_dir):
+            os.unlink(out_dir)
+        else:
+            os.remove(out_dir)
     os.makedirs(out_dir, exist_ok=True)
     for name, content in files.items():
         with open(os.path.join(out_dir, name), "w", encoding="utf-8") as fh:

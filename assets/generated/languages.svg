@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="200" viewBox="0 0 480 200" role="img" aria-labelledby="t d" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif">
+<title id="t">Most used languages</title><desc id="d">Share of code by language across public repositories</desc>
+<rect x="0.5" y="0.5" width="479" height="199" rx="10" fill="#0D1117" stroke="#1F2A37"/>
+<text x="24" y="36" font-size="16" font-weight="600" fill="#E6EDF3">Most Used Languages</text>
+<rect x="24" y="46" width="28" height="2" rx="1" fill="#268BFF"/>
+<clipPath id="bar"><rect x="24" y="64" width="432" height="10" rx="5"/></clipPath>
+<g clip-path="url(#bar)">
+<rect x="24.00" y="64" width="264.66" height="10" fill="#e34c26"/>
+<rect x="288.66" y="64" width="142.25" height="10" fill="#3572A5"/>
+<rect x="430.91" y="64" width="25.09" height="10" fill="#A97BFF"/>
+</g>
+<circle cx="29" cy="104" r="5" fill="#e34c26"/>
+<text x="42" y="108" font-size="13" fill="#E6EDF3">HTML</text>
+<text x="224" y="108" font-size="13" text-anchor="end" fill="#8B98A5">61.3%</text>
+<circle cx="29" cy="132" r="5" fill="#3572A5"/>
+<text x="42" y="136" font-size="13" fill="#E6EDF3">Python</text>
+<text x="224" y="136" font-size="13" text-anchor="end" fill="#8B98A5">32.9%</text>
+<circle cx="29" cy="160" r="5" fill="#A97BFF"/>
+<text x="42" y="164" font-size="13" fill="#E6EDF3">Kotlin</text>
+<text x="224" y="164" font-size="13" text-anchor="end" fill="#8B98A5">5.8%</text>
+</svg>

@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="t d" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif">
+  <title id="t">Leeroy Mwangi</title>
+  <desc id="d">Building Software. Solving Problems. Exploring Technology.</desc>
+  <style>
+    .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+
+    @keyframes rise { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: none; } }
+    .name { animation: rise 0.9s ease-out both; }
+    .tag  { animation: rise 0.9s 0.4s ease-out both; }
+    .term { animation: rise 0.6s ease-out both; }
+
+    @keyframes blink { 50% { opacity: 0; } }
+    .cursor { animation: blink 1s steps(1) infinite; }
+
+    @keyframes glow { 0%, 100% { opacity: 0.18; } 50% { opacity: 0.5; } }
+    .halo { animation: glow 4s ease-in-out infinite; }
+
+    @keyframes cycle {
+      0%   { opacity: 0; transform: translateY(10px); }
+      3%   { opacity: 1; transform: none; }
+      21%  { opacity: 1; transform: none; }
+      25%  { opacity: 0; transform: translateY(-10px); }
+      100% { opacity: 0; transform: translateY(-10px); }
+    }
+    .role { opacity: 0; animation: cycle 16s linear infinite both; }
+    .role.r2 { animation-delay: 4s; }
+    .role.r3 { animation-delay: 8s; }
+    .role.r4 { animation-delay: 12s; }
+
+    @keyframes float {
+      0%   { transform: translateY(0); opacity: 0; }
+      15%  { opacity: 0.55; }
+      85%  { opacity: 0.55; }
+      100% { transform: translateY(-80px); opacity: 0; }
+    }
+    .f { animation: float 9s linear infinite both; fill: #4EA3FF; }
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .ring { transform-box: fill-box; transform-origin: center; animation: spin 40s linear infinite; }
+    .ring.rev { animation-duration: 60s; animation-direction: reverse; }
+
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+      .role.r2, .role.r3, .role.r4 { display: none; }
+      .role.r1 { opacity: 1; }
+    }
+  </style>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#090E17"/>
+      <stop offset="1" stop-color="#0D1A30"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.85" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#268BFF" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#268BFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7CC0FF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#9AD0FF"/>
+      <stop offset="1" stop-color="#7CC0FF" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#1B2B44" stroke-opacity="0.6" stroke-width="1"/>
+      <animateTransform attributeName="patternTransform" type="translate" from="0 0" to="40 40" dur="16s" repeatCount="indefinite"/>
+    </pattern>
+    <filter id="blur" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+    <filter id="soft" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="2.5"/></filter>
+  </defs>
+
+  <rect width="1200" height="340" fill="url(#bg)"/>
+  <rect width="1200" height="340" fill="url(#grid)"/>
+  <rect width="1200" height="340" fill="url(#glow)"/>
+
+  <!-- rotating rings behind the network -->
+  <g fill="none" stroke="#268BFF">
+    <circle class="ring" cx="1030" cy="170" r="150" stroke-opacity="0.22" stroke-dasharray="3 9"/>
+    <circle class="ring rev" cx="1030" cy="170" r="105" stroke-opacity="0.28" stroke-dasharray="14 10"/>
+    <circle cx="1030" cy="170" r="60" stroke-opacity="0.18"/>
+  </g>
+
+  <!-- floating code symbols -->
+  <g class="mono" font-size="22" font-weight="600">
+    <text class="f" x="640" y="300" style="animation-delay:0s">&lt;/&gt;</text>
+    <text class="f" x="760" y="320" style="animation-delay:2.4s;animation-duration:11s">{ }</text>
+    <text class="f" x="905" y="318" style="animation-delay:4.8s;animation-duration:8s">01</text>
+    <text class="f" x="1085" y="312" style="animation-delay:1.2s;animation-duration:10s">$_</text>
+    <text class="f" x="1150" y="300" style="animation-delay:6s;animation-duration:9s">#!</text>
+    <text class="f" x="560" y="324" style="animation-delay:7.5s;animation-duration:12s">::</text>
+  </g>
+
+  <!-- network -->
+  <g stroke="#268BFF" stroke-opacity="0.5" stroke-width="1.5" fill="none">
+    <path d="M925 85 L985 125 L1050 90 L1105 160"/>
+    <path d="M985 125 L965 215 L1040 250 L1105 160"/>
+    <path d="M930 175 L985 125"/>
+    <path d="M930 175 L965 215"/>
+    <path d="M1050 90 L1100 50"/>
+    <path d="M1040 250 L1120 275"/>
+  </g>
+  <g fill="#0A0F18" stroke="#268BFF" stroke-width="2">
+    <circle cx="925" cy="85" r="5"/>
+    <circle cx="985" cy="125" r="8"/>
+    <circle cx="1050" cy="90" r="6"/>
+    <circle cx="1105" cy="160" r="9"/>
+    <circle cx="965" cy="215" r="6"/>
+    <circle cx="1040" cy="250" r="7"/>
+    <circle cx="930" cy="175" r="5"/>
+    <circle cx="1100" cy="50" r="4"/>
+    <circle cx="1120" cy="275" r="4"/>
+  </g>
+  <g fill="#268BFF">
+    <circle cx="985" cy="125" r="3"/>
+    <circle cx="1105" cy="160" r="3.5"/>
+    <circle cx="1040" cy="250" r="2.5"/>
+  </g>
+
+  <!-- pulse rings on the main nodes -->
+  <g fill="none" stroke="#5DB0FF" stroke-width="1.5">
+    <circle cx="985" cy="125" r="8"><animate attributeName="r" values="8;30" dur="3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.7;0" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="1105" cy="160" r="9"><animate attributeName="r" values="9;34" dur="3.6s" begin="1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.7;0" dur="3.6s" begin="1s" repeatCount="indefinite"/></circle>
+    <circle cx="1040" cy="250" r="7"><animate attributeName="r" values="7;26" dur="3.2s" begin="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.7;0" dur="3.2s" begin="2s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- data packets travelling along the links -->
+  <g fill="#BFE0FF">
+    <circle r="3.5"><animateMotion dur="4.5s" repeatCount="indefinite" path="M925 85 L985 125 L1050 90 L1105 160"/></circle>
+    <circle r="3.5"><animateMotion dur="5.5s" begin="1.2s" repeatCount="indefinite" path="M1105 160 L1040 250 L965 215 L930 175"/></circle>
+    <circle r="3"><animateMotion dur="3.8s" begin="0.6s" repeatCount="indefinite" path="M930 175 L985 125 L1050 90 L1100 50"/></circle>
+  </g>
+  <g fill="#4EA3FF" filter="url(#soft)" opacity="0.9">
+    <circle r="5"><animateMotion dur="4.5s" repeatCount="indefinite" path="M925 85 L985 125 L1050 90 L1105 160"/></circle>
+    <circle r="5"><animateMotion dur="5.5s" begin="1.2s" repeatCount="indefinite" path="M1105 160 L1040 250 L965 215 L930 175"/></circle>
+  </g>
+
+  <!-- text -->
+  <g class="term mono">
+    <text x="72" y="70" font-size="19" fill="#5DB0FF">$ whoami</text>
+    <rect class="cursor" x="170" y="54" width="10" height="20" fill="#5DB0FF"/>
+  </g>
+
+  <text class="halo" x="70" y="168" font-size="82" font-weight="800" letter-spacing="5" fill="#268BFF" filter="url(#blur)">LEEROY MWANGI</text>
+  <text class="name" x="70" y="168" font-size="82" font-weight="800" letter-spacing="5" fill="#F4F8FD">LEEROY MWANGI</text>
+
+  <text class="tag" x="72" y="216" font-size="28" font-weight="500" fill="#268BFF">Building Software. Solving Problems. Exploring Technology.</text>
+
+  <g class="mono" font-size="20" fill="#9FB3CC">
+    <text class="role r1" x="72" y="268" style="opacity:1">&gt; Software Developer</text>
+    <text class="role r2" x="72" y="268">&gt; Python and web development</text>
+    <text class="role r3" x="72" y="268">&gt; Networking and Linux</text>
+    <text class="role r4" x="72" y="268">&gt; Cybersecurity and IT support</text>
+  </g>
+
+  <!-- animated bottom rule -->
+  <rect x="0" y="336" width="1200" height="4" fill="#268BFF" fill-opacity="0.25"/>
+  <rect y="336" width="320" height="4" fill="url(#shine)">
+    <animate attributeName="x" from="-320" to="1200" dur="5s" repeatCount="indefinite"/>
+  </rect>
+</svg>

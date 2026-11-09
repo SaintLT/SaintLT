@@ -14,11 +14,29 @@ I build Python tools, web applications and Android apps, with a focus on network
 
 ## About Me
 
-I build software and the systems it depends on. My work covers Python tooling, full-stack web applications and Android, backed by a Computer Science, networking, Linux and security background that shapes how I design and debug: I want to know what actually happens between a request and its response.
+```js
+const leeroy = {
+  role: "Software Developer | Computer Science | IT & Networking",
+  location: "Nairobi, Kenya",
 
-I work across software engineering, web development, PostgreSQL database design, network diagnostics, Linux systems and IT infrastructure. Security is part of how I build: row-level access control in the database, TLS and certificate inspection in my tooling, and apps that only read what they need. Outside core engineering I follow trading and financial technology.
+  building: [
+    "MediaDesk: ticketing system (React, TypeScript, Supabase)",
+    "Spendwise: offline M-Pesa tracker for Android",
+    "Netdiag: network diagnostic toolkit in Python",
+  ],
 
-Based in Nairobi, Kenya.
+  focus: [
+    "Python and automation",
+    "Full-stack web development",
+    "Networking and troubleshooting",
+    "Linux and cybersecurity",
+  ],
+
+  alsoInto: ["Trading", "Financial technology"],
+};
+```
+
+I build software and the systems it depends on, and I want to know what actually happens between a request and its response. Security is part of how I build: row-level access control in the database, TLS and certificate inspection in my tooling, and apps that only read what they need.
 
 <p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
 
@@ -109,21 +127,21 @@ A responsive portfolio with a three.js hero that falls back to CSS when WebGL is
 ## GitHub Analytics
 
 <p align="center">
-<img src="assets/generated/stats.svg" alt="GitHub statistics for SaintLT" width="430">
-<img src="assets/generated/languages.svg" alt="Most used languages across SaintLT repositories" width="430">
+<img src="assets/generated/stats.svg" alt="GitHub statistics for SaintLT" width="400">
+<img src="assets/generated/languages.svg" alt="Most used languages across SaintLT repositories" width="400">
 </p>
 
 <p align="center">
-<img src="assets/generated/streak-total.svg" alt="Total contributions" width="285">
-<img src="assets/generated/streak-current.svg" alt="Current contribution streak" width="285">
-<img src="assets/generated/streak-longest.svg" alt="Longest contribution streak" width="285">
+<img src="assets/generated/streak-total.svg" alt="Total contributions" width="270">
+<img src="assets/generated/streak-current.svg" alt="Current contribution streak" width="270">
+<img src="assets/generated/streak-longest.svg" alt="Longest contribution streak" width="270">
 </p>
 
 <p align="center">
 <img src="assets/generated/activity.svg" alt="Contribution activity over the last year" width="720">
 </p>
 
-<p align="center"><sub>Generated from the GitHub API and refreshed daily by GitHub Actions.</sub></p>
+<p align="center"><sub>Stats and languages cover my public repositories. The streak cards and activity graph cover contributions since I joined GitHub. Generated from the GitHub API and refreshed daily by GitHub Actions.</sub></p>
 
 <p align="center"><img src="assets/divider.svg" alt="" width="100%"></p>
 

@@ -5,17 +5,29 @@
 <rect x="24" y="46" width="28" height="2" rx="1" fill="#268BFF"/>
 <clipPath id="bar"><rect x="24" y="64" width="432" height="10" rx="5"/></clipPath>
 <g clip-path="url(#bar)">
-<rect x="24.00" y="64" width="264.66" height="10" fill="#e34c26"/>
-<rect x="288.66" y="64" width="142.25" height="10" fill="#3572A5"/>
-<rect x="430.91" y="64" width="25.09" height="10" fill="#A97BFF"/>
+<rect x="24.00" y="64" width="222.07" height="10" fill="#3178c6"/>
+<rect x="246.07" y="64" width="109.83" height="10" fill="#e34c26"/>
+<rect x="355.89" y="64" width="58.42" height="10" fill="#3572A5"/>
+<rect x="414.32" y="64" width="20.72" height="10" fill="#336790"/>
+<rect x="435.04" y="64" width="10.30" height="10" fill="#A97BFF"/>
+<rect x="445.34" y="64" width="10.66" height="10" fill="#8B98A5"/>
 </g>
-<circle cx="29" cy="104" r="5" fill="#e34c26"/>
-<text x="42" y="108" font-size="13" fill="#E6EDF3">HTML</text>
-<text x="224" y="108" font-size="13" text-anchor="end" fill="#8B98A5">61.3%</text>
-<circle cx="29" cy="132" r="5" fill="#3572A5"/>
-<text x="42" y="136" font-size="13" fill="#E6EDF3">Python</text>
-<text x="224" y="136" font-size="13" text-anchor="end" fill="#8B98A5">32.9%</text>
-<circle cx="29" cy="160" r="5" fill="#A97BFF"/>
-<text x="42" y="164" font-size="13" fill="#E6EDF3">Kotlin</text>
-<text x="224" y="164" font-size="13" text-anchor="end" fill="#8B98A5">5.8%</text>
+<circle cx="29" cy="104" r="5" fill="#3178c6"/>
+<text x="42" y="108" font-size="13" fill="#E6EDF3">TypeScript</text>
+<text x="224" y="108" font-size="13" text-anchor="end" fill="#8B98A5">51.4%</text>
+<circle cx="29" cy="132" r="5" fill="#e34c26"/>
+<text x="42" y="136" font-size="13" fill="#E6EDF3">HTML</text>
+<text x="224" y="136" font-size="13" text-anchor="end" fill="#8B98A5">25.4%</text>
+<circle cx="29" cy="160" r="5" fill="#3572A5"/>
+<text x="42" y="164" font-size="13" fill="#E6EDF3">Python</text>
+<text x="224" y="164" font-size="13" text-anchor="end" fill="#8B98A5">13.5%</text>
+<circle cx="255" cy="104" r="5" fill="#336790"/>
+<text x="268" y="108" font-size="13" fill="#E6EDF3">PLpgSQL</text>
+<text x="450" y="108" font-size="13" text-anchor="end" fill="#8B98A5">4.8%</text>
+<circle cx="255" cy="132" r="5" fill="#A97BFF"/>
+<text x="268" y="136" font-size="13" fill="#E6EDF3">Kotlin</text>
+<text x="450" y="136" font-size="13" text-anchor="end" fill="#8B98A5">2.4%</text>
+<circle cx="255" cy="160" r="5" fill="#8B98A5"/>
+<text x="268" y="164" font-size="13" fill="#E6EDF3">Other</text>
+<text x="450" y="164" font-size="13" text-anchor="end" fill="#8B98A5">2.5%</text>
 </svg>

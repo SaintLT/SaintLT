@@ -3,7 +3,7 @@
 <rect x="0.5" y="0.5" width="289" height="157" rx="10" fill="#0D1117" stroke="#1F2A37"/>
 <circle cx="145.0" cy="58" r="34" fill="none" stroke="#16365C" stroke-width="6"/>
 <circle cx="145.0" cy="58" r="34" fill="none" stroke="#268BFF" stroke-width="6" stroke-linecap="round" stroke-dasharray="213.6 213.6" transform="rotate(-90 145.0 58)"/>
-<text x="145.0" y="68" font-size="26" font-weight="600" text-anchor="middle" fill="#E6EDF3">4</text>
+<text x="145.0" y="68" font-size="26" font-weight="600" text-anchor="middle" fill="#E6EDF3">8</text>
 <text x="145.0" y="116" font-size="14" font-weight="500" text-anchor="middle" fill="#268BFF">Current streak (days)</text>
-<text x="145.0" y="138" font-size="12" text-anchor="middle" fill="#8B98A5">Nov 6, 2026 - Nov 9, 2026</text>
+<text x="145.0" y="138" font-size="12" text-anchor="middle" fill="#8B98A5">Nov 2, 2026 - Nov 9, 2026</text>
 </svg>
